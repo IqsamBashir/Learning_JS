@@ -43,10 +43,12 @@ const finalReversedString= reverseStr.join('');
 console.log(finalReversedString);
 
 const Str="wahid";
-newStr=Str.split('').reverse('').join('');
+newStr=Str.split('').reverse( ).join('');
 console.log(newStr);
 
+//Q? why we pass empty string in split???
 
+//Ans==> becaue it will return an array with each character as a separate element
 
 
 
