@@ -31,7 +31,15 @@ function myApp ()
         var firstName2 ="Abdul Wahid";
         console.log(firstName2);
     }
-    console.log(firstName2); // if variable is declared with var keyword 
+    console.log(firstName2); // if variable is declared with var keyword, it is accesed within and outside the function
+
+    //but if declared with the let keyword, it wont be accessed outsdie the function.
+
+    //var can be accessed in other function also
+    if (true){
+        console.log(firstName2);
+
+    }
 }
 
 myApp();
